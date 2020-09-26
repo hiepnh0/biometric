@@ -17,8 +17,8 @@ dictSearch = {
  				"Failed_sign_8": "ERROR: AppleBiometricSEP::sepMessageHandler",
 
  				"Passed_sign_1": "<Notice>: statusMessage:withData:timestamp:",
- 				"Passed_sign_2": "<Notice>: sending status message"
-				"Passed_sign_ignore_1": "<Error>: forceBioLockoutForUser:withClien"
+ 				"Passed_sign_2": "<Notice>: sending status message",
+				"Passed_sign_ignore_1": "<Error>: forceBioLockoutForUser:withClien",
 				"Passed_sign_ignore_2": "<Notice>: sending status message"
 			}
 def MY_CONSTANT():
