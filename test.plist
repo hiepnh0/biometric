@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadContent</key>
+			<dict>
+				<key>CAFingerprint</key>
+				<data>
+				MEJBQzUwNkZDQTIzQ0RBQ0MzQUZDRUFDM0Q2OTE2MjdC
+				OEVEMzExNkRCQzU4OTZERTBBNUUyNjk5NTc3OEZBOA==
+				</data>
+				<key>Challenge</key>
+				<string>Mqcz3rDY8+2kLuvwX27Jvirry0Pi6jS20GJlsROPO6E=</string>
+				<key>Key Type</key>
+				<string>RSA</string>
+				<key>Key Usage</key>
+				<integer>0</integer>
+				<key>Keysize</key>
+				<integer>2048</integer>
+				<key>Name</key>
+				<string>Profile Manager Device Identity CA</string>
+				<key>Subject</key>
+				<array>
+					<array>
+						<array>
+							<string>CN</string>
+							<string>MDM Identity Certificate:83701d28-951a-44b4-b38b-362c106552c9</string>
+						</array>
+					</array>
+				</array>
+				<key>URL</key>
+				<string>http://2ndlifem1server.local:80/mdm/scep</string>
+			</dict>
+			<key>PayloadDescription</key>
+			<string>Configures SCEP</string>
+			<key>PayloadDisplayName</key>
+			<string>Device Credential Request</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.mdmconfig.SCEP</string>
+			<key>PayloadOrganization</key>
+			<string>Hitek Nova Ltd.</string>
+			<key>PayloadType</key>
+			<string>com.apple.security.scep</string>
+			<key>PayloadUUID</key>
+			<string>EE5EBCA4-743A-4DA9-9977-B573910DFF7C</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>AccessRights</key>
+			<integer>8191</integer>
+			<key>CheckInURL</key>
+			<string>https://2ndlifem1server.local/devicemanagement/api/device/mdm_checkin</string>
+			<key>CheckOutWhenRemoved</key>
+			<true/>
+			<key>IdentityCertificateUUID</key>
+			<string>EE5EBCA4-743A-4DA9-9977-B573910DFF7C</string>
+			<key>PayloadDescription</key>
+			<string>Configures Mobile Device Management</string>
+			<key>PayloadDisplayName</key>
+			<string>Device Management</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.mdmconfig.mdm</string>
+			<key>PayloadOrganization</key>
+			<string>Hitek Nova Ltd.</string>
+			<key>PayloadType</key>
+			<string>com.apple.mdm</string>
+			<key>PayloadUUID</key>
+			<string>C017491F-5048-41B0-BD6C-E539ECB519F4</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>ServerCapabilities</key>
+			<array>
+				<string>com.apple.mdm.per-user-connections</string>
+				<string>com.apple.mdm.bootstraptoken</string>
+			</array>
+			<key>ServerURL</key>
+			<string>https://2ndlifem1server.local/devicemanagement/api/device/mdm_connect</string>
+			<key>Topic</key>
+			<string>com.apple.mgmt.XServer.af91e15a-35e0-4524-9e5e-648a91702580</string>
+		</dict>
+		<dict>
+			<key>PayloadContent</key>
+			<data>
+			MIIDfzCCAmcCCAhHDfzFXlSdMA0GCSqGSIb3DQEBCwUAMIGBMQsw
+			CQYDVQQGEwJVUzEeMBwGA1UECgwVMm5kbGlmZW0xc2VydmVyLmxv
+			Y2FsMSswKQYDVQQDDCJQcm9maWxlIE1hbmFnZXIgRGV2aWNlIElk
+			ZW50aXR5IENBMSUwIwYJKoZIhvcNAQkBFhZob3N0bWFzdGVyQGV4
+			YW1wbGUuY29tMB4XDTIyMDYwOTAxNDcwNFoXDTIzMDcwOTAxNDcw
+			NFowgYExCzAJBgNVBAYTAlVTMR4wHAYDVQQKDBUybmRsaWZlbTFz
+			ZXJ2ZXIubG9jYWwxKzApBgNVBAMMIlByb2ZpbGUgTWFuYWdlciBE
+			ZXZpY2UgSWRlbnRpdHkgQ0ExJTAjBgkqhkiG9w0BCQEWFmhvc3Rt
+			YXN0ZXJAZXhhbXBsZS5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IB
+			DwAwggEKAoIBAQDxPVjKTtKhl3Kqkajq84S3UNWy8BeJax5hhsqt
+			+sJYUUyhf8D3NXrublqsxH97G36w3NOSne1GEHyeYDkLeJcpO+em
+			8NJKh6shwwJnQEaQ6hjiHl9LpDXrHEt/Yby5FZDMRvIfzlIbSKyD
+			XnGBSfsCRJ8QVX0gsj99F1wWijLalrMTWPvmI7+eybHabmEq6IF/
+			Q0QBDEef55dGGkrk7/2VJBWUCmtAtqYiIQEifvNJtM6EIcMQWEv0
+			8IR0c6MSQvaktwYxBP+pV3QbMHm/bcnXBtZvF0rAmBqQWGIwjJpD
+			9iDhzv4YhBQFPgByMMsYutyqNpyy0ri815DyVTxdMBbRAgMBAAEw
+			DQYJKoZIhvcNAQELBQADggEBAKjDkEkMc2uUCavWTFYuqSyLTTd9
+			F85wmfS9mS0TWk3Ru091Ne02sGoAlZDNLUhRMa6ytsrHChluLdQB
+			fKVY7Rfq522LDSZKem77aWU62gWqC9OpovPDYsFTVzOr8j0jFAkc
+			sKAeGPTGbkyevlVraYA62LKRV6bGPg905yWQcremTLBCJCgCzlrv
+			MdXKyfajAHYIFNtQ+DKKPFN94yCkCZsHLiP/B+Bv8sbr+4QIntC4
+			gH1i3xHYLqASlhcuPqyi41HgqTzGMBPLY9HrQeup4zSwZpzi3DDo
+			IURFfFk1wAFWnhjjph+sJIjUXgHh6XlcmG4hAUIxJnDh6ekMzxln
+			S8k=
+			</data>
+			<key>PayloadDescription</key>
+			<string>Configures your device to trust the Profile Manager server Hitek Nova Ltd..</string>
+			<key>PayloadDisplayName</key>
+			<string>Trust Profile for Hitek Nova Ltd.</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.scep.certificate</string>
+			<key>PayloadOrganization</key>
+			<string>Hitek Nova Ltd.</string>
+			<key>PayloadType</key>
+			<string>com.apple.security.root</string>
+			<key>PayloadUUID</key>
+			<string>9D42A4BE-464B-436A-8C3F-54BF4AC3121F</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>PayloadContent</key>
+			<data>
+			MIIDvjCCAqagAwIBAgIEJ6yN7TANBgkqhkiG9w0BAQsFADB/MT8w
+			PQYDVQQDDDZIaXRlayBOb3ZhIEx0ZC4gU2VydmVyIENlcnRpZmlj
+			YXRpb24gQXV0aG9yaXR5IFJvb3QgQ0ExGDAWBgNVBAoMD0hpdGVr
+			IE5vdmEgTHRkLjEiMCAGCSqGSIb3DQEJARYTaGVsbG9AaGl0ZWtu
+			b3ZhLmNvbTAeFw0yMjA2MDkwMTQ4NDNaFw0yNzA2MDgwMTQ4NDNa
+			MH8xPzA9BgNVBAMMNkhpdGVrIE5vdmEgTHRkLiBTZXJ2ZXIgQ2Vy
+			dGlmaWNhdGlvbiBBdXRob3JpdHkgUm9vdCBDQTEYMBYGA1UECgwP
+			SGl0ZWsgTm92YSBMdGQuMSIwIAYJKoZIhvcNAQkBFhNoZWxsb0Bo
+			aXRla25vdmEuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIB
+			CgKCAQEAtYQ/Nc7LsvmxXA1XBwge6ZVqXaMxtbrOn3lxdde5jzkZ
+			BCB6iIMsP4cr5VXYTI/i1as7ZBPv9XocJKqQ3s0CPe/NWvcbOsXj
+			3TfVcSxzS5kWZrWA0Lshj/NkrhiBtmxTAw1f6/HzwMG76jvwEZem
+			RsqfvC528UuQELUs7zLvPVbovIGjQwp1WAKMhYZHfZyqAwqAMilG
+			gds7rmoglydNp3+ntrk6TWUeyl3WZEHtfmOswoxMTk+yN45CAvzs
+			G0tDIBve2Qs18xDPcJOVBo9dOMx/BO7SVXGpFMsRYgr3CC8MNqqz
+			T499hONvHKFCCpqz/mmEoehQSA3hq862Bsl8RQIDAQABo0IwQDAP
+			BgNVHRMBAf8EBTADAQH/MA4GA1UdDwEB/wQEAwIBBjAdBgNVHQ4E
+			FgQUb4FCWR8VWxYlQrE2f5svdgxGcZ4wDQYJKoZIhvcNAQELBQAD
+			ggEBAKssB4a7e3ghBCcbWZ+j8RMVk+1vzBJxrTLSpiop3+sk6TA4
+			guHJmF1buoNEgvOVDW4VRQgi4FmsBHtJowEfxCzoCSis+fG/QgBe
+			8vnF0BlFnI7jGntAxF3fY4/qGy1MhJiDRxPc3CMXhfMxEZUNaODl
+			vNeB8cIyew4KP37ROiPU6FqoTgrnh/NG6Q0xP94xR16S6SdJyJCg
+			NqukLI6rK3D9lXcBqGqZE2dj4oAizdh+J/nTHPYx55LzWTP8iD3b
+			WKbY5/JNk2YP/DxDOdtFMxIIHT6l6KMN/cfTGifAQBaHTO4X41qy
+			T9BWTRbd+QpQUaoeED/rgCI1K9Pu/vgUXDY=
+			</data>
+			<key>PayloadDescription</key>
+			<string>Configures your device to trust the Profile Manager server Hitek Nova Ltd..</string>
+			<key>PayloadDisplayName</key>
+			<string>Trust Profile for Hitek Nova Ltd.</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.root.certificate</string>
+			<key>PayloadOrganization</key>
+			<string>Hitek Nova Ltd.</string>
+			<key>PayloadType</key>
+			<string>com.apple.security.root</string>
+			<key>PayloadUUID</key>
+			<string>F0A08692-66E8-476E-BFC8-7FC63AD32AAE</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Allows the server to manage your device.</string>
+	<key>PayloadDisplayName</key>
+	<string>Remote Management</string>
+	<key>PayloadIdentifier</key>
+	<string>com.apple.config.2ndlifem1server.local.mdm</string>
+	<key>PayloadOrganization</key>
+	<string>Hitek Nova Ltd.</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>582001D5-654F-48C2-B284-292618B1F8DC</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
